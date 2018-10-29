@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.muska.tp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permissions.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TnP"
+            android:label="@string/title_activity_tn_p"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.muska.tp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Rules"
+            android:label="@string/title_activity_rules"
+            android:parentActivityName=".TnP"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.muska.tp.TnP" />
+        </activity>
+        <activity
+            android:name=".CorporateLinkages"
+            android:label="@string/title_activity_corporate_linkages"
+            android:parentActivityName=".TnP"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.muska.tp.TnP" />
+        </activity>
+        <activity
+            android:name=".Students"
+            android:label="@string/title_activity_students"
+            android:parentActivityName=".TnP"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.muska.tp.TnP" />
+        </activity>
+        <activity
+            android:name=".ContactUs"
+            android:label="@string/title_activity_contact_us"
+            android:parentActivityName=".TnP"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.muska.tp.TnP" />
+        </activity>
+        <activity
+            android:name=".Jobs"
+            android:label="@string/title_activity_jobs"
+            android:parentActivityName=".TnP"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.muska.tp.TnP" />
+        </activity>
+        <activity
+            android:name=".PlacementReports"
+            android:label="@string/title_activity_reports"
+            android:parentActivityName=".TnP"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.muska.tp.TnP" />
+        </activity>
+        <activity
+            android:name=".Expirience"
+            android:label="@string/title_activity_expirience"
+            android:parentActivityName=".TnP"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.muska.tp.TnP" />
+        </activity>
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".MainActivity5" />
+        <activity android:name=".MainActivity6" />
+        <activity android:name=".MainActivity7" />
+        <activity android:name=".MainActivity8" />
+        <activity android:name=".MainActivity9" />
+        <activity android:name=".MainActivity10" />
+        <activity android:name=".MainActivity11" />
+        <activity android:name=".ShowExperience" />
+        <activity android:name=".ShowJobs"></activity>
+    </application>
+
+</manifest>

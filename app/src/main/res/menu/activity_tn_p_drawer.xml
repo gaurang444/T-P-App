@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rules"
+            android:icon="@drawable/ic_comment_black_24dp"
+            android:title="Procedure" />
+        <item
+            android:id="@+id/nav_company"
+            android:icon="@drawable/ic_business_black_24dp"
+            android:title="Corporate Linkages" />
+
+        <item
+            android:id="@+id/nav_records"
+            android:icon="@drawable/ic_format_list_bulleted_black_24dp"
+            android:title="Placement Records" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contact_phone_black_24dp"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_jobs"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Jobs" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/ic_folder_black_24dp"
+            android:title="Placement Reports" />
+        <item
+            android:id="@+id/nav_expirience"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="Expirience" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Website" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Facebook" />
+        </menu>
+    </item>
+
+</menu>

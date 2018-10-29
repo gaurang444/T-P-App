@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">T&amp;P</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_tn_p">T&amp;P</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_rules">Procedure</string>
+    <string name="title_activity_corporate_linkages">Companies</string>
+    <string name="title_activity_students">Students</string>
+    <string name="title_activity_placement_records">Placement Records</string>
+    <string name="title_activity_contact_us">Contact Us</string>
+    <string name="title_activity_jobs">Jobs</string>
+    <string name="title_activity_reports">Placement Reports</string>
+    <string name="title_activity_expirience">Experience</string>
+</resources>

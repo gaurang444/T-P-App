@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "622974035273",
+    "firebase_url": "https://fir-demo-39fc7.firebaseio.com",
+    "project_id": "fir-demo-39fc7",
+    "storage_bucket": "fir-demo-39fc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622974035273:android:9d6b826d3c18e189",
+        "android_client_info": {
+          "package_name": "com.example.muska.tp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622974035273-8u14ma12973t5shb99oh22amshb6p6q0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFV36Agj4FtBc0J-8sHmfcH7R2ZmzUibo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
